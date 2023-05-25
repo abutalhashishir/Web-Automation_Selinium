@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCases.TC0006_Refresh"/>
+      <class name="testCases.TC0007_Scroll"/>
+      <class name="testCases.TC0005_DropDown"/>
+      <class name="base.driverSetup"/>
+      <class name="testCases.TC0003_verify_pageTittle"/>
+      <class name="testCases.TC00010_Right_Click"/>
+      <class name="testCases.TC0001_LoactorLearning"/>
+      <class name="testCases.TC0002LoactorLearningAdvance"/>
+      <class name="testCases.TC00012_Keyboard_Event"/>
+      <class name="testCases.TC0004checkbocAndRadioButon"/>
+      <class name="testCases.TC00011_Slider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
